@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2129587549356149454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 123901866790352201, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_Name
+      value: Weapon_SmokeGrenade
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123901866790352202, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087041779081567011, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1350819802070227536}
+    - target: {fileID: 3424698117035303906, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: <UniquePrefabID>k__BackingField
+      value: Weapon_SmokeGrenade
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846047070759635148, guid: 7d9389646aecfb347bb674da04645d9d,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 728d0cd0a882dfa43a238a54bf6ec381, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d9389646aecfb347bb674da04645d9d, type: 3}
+--- !u!114 &1339858456405709293 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1087041779081567011, guid: 7d9389646aecfb347bb674da04645d9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2129587549356149454}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032777650149015431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685777ab8f308469c764aeaf04340a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2032777650149015431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 123901866790352201, guid: 7d9389646aecfb347bb674da04645d9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2129587549356149454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1350819802070227536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032777650149015431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef1fe1d0afe027489f4acb1185f3e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponName: SmokeGeneradeWeapon
+  damage: 0
+  fireRate: 1
+  aimSpeed: 0
+  burst: 0
+  equipTime: 0.2
+  reloadTime: 0.2
+  isRecovery: 0
+  recoveryTime: 0
+  adsFOV: 0
+  weaponAdsFOV: 0
+  canDrop: 0
+  display: {fileID: -4054615783751293775, guid: a569ca3c504a3dc4dbc002cd87fe224e,
+    type: 3}
+  attackSoundAsset: {fileID: 11400000, guid: a8e833b74cd8c3642b4e1b765d3e9cb8, type: 2}
+  soundPitchRandomization: 0.025
+  soundVolume: 0.6
+  weaponAnimation: {fileID: 1339858456405709293}
+  weaponSway: {fileID: 2764253823190202574}
+  canBeAttackLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  aimWithScope: 0
+  ammo: 3
+  clipSize: 100
+  bloom: 0
+  recoil: 0
+  kickback: 0
+  shootPoint: {fileID: 5279654279371176831}
+  throwForce: 3000
+  minDespawnTime: 0
+  objectPrefab: {fileID: 1481184569015979289, guid: 5f68365d674387f4bbce171095586f06,
+    type: 3}
+  dummyThrowObject: {fileID: 6177853507775297426}
+  smokeDuration: 20
+--- !u!114 &2764253823190202574 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4310308383202980352, guid: 7d9389646aecfb347bb674da04645d9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2129587549356149454}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032777650149015431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e5cbee2a0d067468fcae048cdebdfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2991537750076520370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3749742758643678588, guid: 7d9389646aecfb347bb674da04645d9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2129587549356149454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5279654279371176831 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6109353964946190769, guid: 7d9389646aecfb347bb674da04645d9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2129587549356149454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6176785668384321204
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2991537750076520370}
+    m_Modifications:
+    - target: {fileID: 1263194922129702, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_Name
+      value: SM_Wep_Grenade_Smoke_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143522022320502, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4, type: 3}
+--- !u!1 &6177853507775297426 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1263194922129702, guid: 9542e0a3f73ed4c4caa252dddf2fcdc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6176785668384321204}
+  m_PrefabAsset: {fileID: 0}
